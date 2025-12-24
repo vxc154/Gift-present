@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公式プレゼント</title>
+    
+    <!-- TikTok Pixel Code Start -->
+    <script>
+    !function (w, d, t) {
+      w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+    var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+    ;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+      ttq.load('D55C23RC77U9VM57AD50');
+      ttq.page();
+    }(window, document, 'ttq');
+    </script>
+    <!-- TikTok Pixel Code End -->
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 500px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 60px 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .gift-icon {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 30px;
+            position: relative;
+        }
+
+        .gift-box {
+            width: 120px;
+            height: 100px;
+            background: white;
+            border-radius: 5px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .gift-ribbon-v {
+            width: 30px;
+            height: 100px;
+            background: #e74c3c;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 0;
+        }
+
+        .gift-ribbon-h {
+            width: 120px;
+            height: 30px;
+            background: #e74c3c;
+            position: absolute;
+            top: 35px;
+            left: 0;
+        }
+
+        .bow {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 40px;
+        }
+
+        .bow-left, .bow-right {
+            width: 35px;
+            height: 35px;
+            background: #e74c3c;
+            border-radius: 50% 50% 0 50%;
+            position: absolute;
+            top: -15px;
+        }
+
+        .bow-left {
+            left: 5px;
+            transform: rotate(-45deg);
+        }
+
+        .bow-right {
+            right: 5px;
+            transform: rotate(45deg);
+            border-radius: 50% 50% 50% 0;
+        }
+
+        .bow-center {
+            width: 20px;
+            height: 20px;
+            background: #c0392b;
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            top: -10px;
+            transform: translateX(-50%);
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .content {
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 18px 60px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 35px rgba(102, 126, 234, 0.5);
+        }
+
+        .company-info {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: left;
+            font-size: 13px;
+            line-height: 1.8;
+            color: #333;
+        }
+
+        .company-info h3 {
+            font-size: 14px;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+
+        .company-info p {
+            margin-bottom: 8px;
+        }
+
+        .info-section {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+
+        .info-section h4 {
+            font-size: 13px;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="gift-icon">
+                <div class="gift-box">
+                    <div class="gift-ribbon-v"></div>
+                    <div class="gift-ribbon-h"></div>
+                </div>
+                <div class="bow">
+                    <div class="bow-left"></div>
+                    <div class="bow-right"></div>
+                    <div class="bow-center"></div>
+                </div>
+            </div>
+            <h1>公式プレゼント</h1>
+            <p class="subtitle">公式LINE追加で今すぐお届けします</p>
+        </div>
+
+        <div class="content">
+            <a href="https://lin.ee/EawEKRj" class="cta-button">今すぐ受け取る</a>
+
+            <div class="company-info">
+                <h3>【特定商取引法に基づく表記・運営者情報】</h3>
+                <p>・事業者名: 株式会社GIFT</p>
+                <p>・所在地: 〒141-0022 東京都品川区東五反田2-5-2 THE CASK GOTANDA</p>
+                <p>・お問い合わせ: teruryupyo@momoi.uk</p>
+                <p>※お電話でのお問い合わせは受け付けておりません。</p>
+                <p>　上記メールまでご連絡ください。</p>
+
+                <div class="info-section">
+                    <h4>【個人情報の取り扱いについて】</h4>
+                    <p>当サイトはお客様の個人情報を適切に保護することの重要性を認識し、法令遵守および安全な取り扱いに努めます。</p>
+                    <p>取得した個人情報は、お問い合わせへの対応およびサービスのご案内のみに利用し、法令に基づく場合を除き第三者への提供は行いません。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
